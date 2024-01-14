@@ -1,0 +1,66 @@
+{
+  "id" : "https://egray523.github.io/testIIIF/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in egray523/testIIIF project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 450,
+    "id" : "https://egray523.github.io/testIIIF/images/RichelieuChaton/canvas/",
+    "label" : {
+      "none" : [ "RichelieuChaton" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://egray523.github.io/testIIIF/images/RichelieuChaton/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://egray523.github.io/testIIIF/images/RichelieuChaton/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 15,
+              "height" : 20
+            }, {
+              "width" : 29,
+              "height" : 40
+            }, {
+              "width" : 57,
+              "height" : 79
+            }, {
+              "width" : 113,
+              "height" : 158
+            }, {
+              "width" : 225,
+              "height" : 316
+            }, {
+              "width" : 450,
+              "height" : 631
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 450,
+            "@id" : "https://egray523.github.io/testIIIF/images/RichelieuChaton",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 631
+          } ],
+          "format" : "image/jpeg",
+          "width" : 450,
+          "id" : "https://egray523.github.io/testIIIF/images/RichelieuChaton/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 631
+        },
+        "target" : "https://egray523.github.io/testIIIF/images/RichelieuChaton/canvas/"
+      } ]
+    } ],
+    "height" : 631
+  } ]
+}
